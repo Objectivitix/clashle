@@ -26,8 +26,8 @@
 }
 
 .cell-fill-animation {
-  animation: onTypeCell linear;
-  animation-duration: 0.35s;
+  animation: onTypeCell ease-in-out;
+  animation-duration: 0.07s;
 }
 
 .cell-reveal {
@@ -160,7 +160,7 @@ svg.cursor-pointer:hover {
   }
 
   50% {
-    transform: scale(1.1);
+    transform: scale(1.08);
   }
 
   100% {
