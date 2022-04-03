@@ -35,7 +35,7 @@ export const Navbar = ({
           />
         </div>
       </div>
-      <hr></hr>
+      <hr className="border-slate-400"></hr>
     </div>
   )
 }

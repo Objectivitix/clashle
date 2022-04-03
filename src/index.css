@@ -26,8 +26,8 @@
 }
 
 .cell-fill-animation {
-  animation: onTypeCell ease-in-out;
-  animation-duration: 0.07s;
+  animation: onTypeCell ease-in;
+  animation-duration: 0.22s;
 }
 
 .cell-reveal {
@@ -155,16 +155,14 @@ svg.cursor-pointer:hover {
 }
 
 @keyframes onTypeCell {
-  0% {
-    transform: scale(1);
+  from {
+    transform: scale(0.8);
+    opacity: 0;
   }
 
-  50% {
-    transform: scale(1.08);
-  }
-
-  100% {
-    transform: scale(1);
+  35% {
+    transform: scale(1.1);
+    opacity: 1;
   }
 }
 
